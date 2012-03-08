@@ -1,0 +1,134 @@
+/*ESSENTIAL ********************************/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, aside, footer, nav, article, hgroup{
+	display:block;
+}
+
+/*******************************************/
+
+/*CONSTRUCTOR******************************/
+
+body {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	background-image: url("../html5/img/back.png");
+	background-repeat: repeat-x;
+	text-align:center; 
+}
+
+#big_wrapper{
+	width: 1000px;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+}
+
+/**************************************/
+
+/***HEADER*****************************/
+
+#header_div{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+#top_header {
+	background: black;
+	padding: 20px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+}
+
+#top_header img{
+	width: 100px;
+	height: 100px;
+}
+
+/*NAVIGATION*************************/
+
+#top_menu{
+	margin-top: 5px;
+	background: gray;
+	color: white;
+	text-align: center;
+	-webkit-border-radius: 5px;
+}
+
+#top_menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 18px Calibri;
+}
+
+/****************************************/
+
+/*MAIN SECTION****************************/
+
+#content_div{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+#search_section{
+	background-color: white;
+	padding: 20px;
+	margin-top: 10px;
+	border: 1px solid black;
+	-webkit-box-flex: 1;
+	-webkit-border-radius: 10px;
+}
+
+#search_box{
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow:rgb(110,110,110) 5px 5px 20px;
+	padding: 20px;
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#search_box input{
+	font: 24px Calibri;
+	width: 300px;
+}
+
+/* SEARCH RESULT & RECENT FILES UPLOADED */
+
+#result_div{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin-top: 20px;
+}
+
+#result_box{
+	border: 1px solid orange;
+	padding: 20px;
+	-webkit-box-flex: 1;
+	-webkit-border-radius: 10px;
+}
+
+#recent_files{
+	border: 1px solid red;
+	width: 220px;
+	padding: 20px;
+	margin-left: 20px;
+	-webkit-border-radius: 10px;
+}
+
+/*****************************/
+
+#the_footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	margin-top: 20px;
+	font: bold 14px Calibri;
+	color: gray;
+}
+
